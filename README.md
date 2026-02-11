@@ -36,6 +36,16 @@ cd cl-option-zone
 pip install -r requirements.txt
 ```
 
+> **Windows Users / Python 3.13+ Note:**
+> If you encounter errors installing `pandas-ta` or `scipy`, try installing with the pre-release flag:
+> ```bash
+> pip install -r requirements.txt --pre
+> ```
+> Or install pandas-ta directly from source:
+> ```bash
+> pip install git+https://github.com/twopirllc/pandas-ta.git@development
+> ```
+
 ### 2. Usage
 
 Run the analyzer with default settings (5-day lookback, 150 bins):
