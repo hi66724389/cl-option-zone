@@ -82,23 +82,23 @@ def display_report(price, res):
 
     console.print(table)
     
-    # Strategy Hint
+    # Strategy Signal
     strat_panel = f"""
     [bold underline]Market Context[/]: {zone_status}
     
-    [bold]🎯 Trading Plan:[/bold]
-    • [bold yellow]POC ({res['POC']})[/]: Magnet. Expect reversion here.
-    • [bold red]VAH ({res['VAH']})[/]: Resistance. Look for shorts if price rejects back inside.
-    • [bold green]VAL ({res['VAL']})[/]: Support. Look for longs if price reclaims.
+    [bold]🎯 Strategic Bias:[/bold]
+    • [bold yellow]POC ({res['POC']})[/]: Mean Reversion Target.
+    • [bold red]VAH ({res['VAH']})[/]: Resistance / Breakout Level.
+    • [bold green]VAL ({res['VAL']})[/]: Support / Breakdown Level.
     
-    [bold]⚠️ High Volume Nodes (Support/Resistance):[/]
+    [bold]⚠️ High Volume Nodes (Structural Levels):[/]
     {', '.join([str(x) for x in res['HVNs']])}
     
-    [bold]🚀 Low Volume Nodes (Fast Zones):[/]
+    [bold]🚀 Low Volume Nodes (Liquidity Voids):[/]
     {', '.join([str(x) for x in res['LVNs']])}
     """
     
-    console.print(Panel(strat_panel, title="🧠 AI Strategy Assistant", border_style="cyan"))
+    console.print(Panel(strat_panel, title="📊 Quantitative Analysis", border_style="cyan"))
 
 if __name__ == "__main__":
     main()

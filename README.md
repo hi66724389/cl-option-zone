@@ -1,8 +1,8 @@
 # 🛢️ CL Option Zone Analyzer
 
-**Automated Volume Profile & Strategy Engine for Crude Oil (CL)**
+**Automated Volume Profile & Quantitative Strategy Engine for Crude Oil (CL)**
 
-A quantitative analysis tool designed to identify high-probability trading zones for WTI Crude Oil Futures (CL) using **Volume Profile** metrics. It automatically calculates key support/resistance levels and suggests optimal option strategies based on market context.
+A quantitative analysis tool designed to identify high-probability trading zones for WTI Crude Oil Futures (CL) using **Volume Profile** metrics. It automatically calculates key support/resistance levels and maps optimal option strategies based on statistical market context.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10+-yellow.svg)
@@ -72,18 +72,18 @@ Target: CL=F | Period: 5d
 │ VAL (Value Area Low) │       75.80 │ -0.74            │
 └──────────────────────┴─────────────┴──────────────────┘
 
-🧠 AI Strategy Assistant
+📊 Quantitative Analysis
 Market Context: INSIDE VALUE
 
-🎯 Trading Plan:
-• POC (76.10): Magnet. Expect reversion here.
-• VAH (77.20): Resistance. Look for shorts if price rejects.
-• VAL (75.80): Support. Look for longs if price reclaims.
+🎯 Strategic Bias:
+• POC (76.10): Mean Reversion Target.
+• VAH (77.20): Resistance / Breakout Level.
+• VAL (75.80): Support / Breakdown Level.
 
-⚠️ High Volume Nodes (Support/Resistance):
+⚠️ High Volume Nodes (Structural Levels):
 76.10, 75.50, 77.00
 
-🚀 Low Volume Nodes (Fast Zones):
+🚀 Low Volume Nodes (Liquidity Voids):
 76.80, 75.20
 ```
 
