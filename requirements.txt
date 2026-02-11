@@ -2,7 +2,8 @@ pandas>=2.0.0
 numpy>=1.24.0
 yfinance>=0.2.36
 scipy>=1.10.0
-pandas-ta>=0.3.14
+# pandas-ta removed due to Python 3.14 compatibility issues (numba dependency)
+# Using native scipy/numpy for technical indicators instead
 rich>=13.0.0
 pyyaml>=6.0
-matplotlib>=3.7.0  # For optional plotting later
+matplotlib>=3.7.0
